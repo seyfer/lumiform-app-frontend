@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-  </div>
+  <section>
+    <h1 class="is-size-1">Guesszito</h1>
+    <h2 class="subtitle">
+      Guess the score of each movie and beat your opponents
+    </h2>
+
+    <b-button
+      cypress="startGame"
+      class="is-uppercase"
+      type="is-text"
+      tag="router-link"
+      :to="{ name: 'credentials' }"
+    >
+      start a game
+    </b-button>
+  </section>
 </template>
-
-<script lang="ts">
-import Vue from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-
-export default Vue.extend({
-  name: 'Home',
-  components: {
-    HelloWorld,
-  },
-});
-</script>

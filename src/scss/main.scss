@@ -1,0 +1,18 @@
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/helpers';
+
+@import './base/animations';
+
+@import './layout/default';
+
+@import './components/navigation';
+@import './components/router-link';
+@import './components/guessed-card';
+@import './components/table';
+@import './components/button';
+@import './components/input';
+@import './components/card-statistics';
+
+@import './pages/guessing';
+@import './pages/results';

@@ -6,11 +6,26 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@types/faker": "^5.1.4",
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/lodash.uniqby": "^4.7.6",
+    "@vue/composition-api": "^1.0.0-beta.19",
+    "axios": "^0.21.0",
+    "buefy": "^0.9.4",
+    "chart.js": "^2.9.4",
     "core-js": "^3.6.5",
+    "date-fns": "^2.16.1",
+    "faker": "^5.1.0",
+    "lodash.debounce": "^4.0.8",
+    "lodash.uniqby": "^4.7.0",
+    "qs": "^6.9.4",
+    "vee-validate": "^3.4.3",
     "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.1",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },
@@ -19,6 +34,7 @@
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-e2e-cypress": "^4.5.8",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-typescript": "~4.5.0",
@@ -34,6 +50,7 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
+    "vue-cli-plugin-vuedock": "~2.1.0",
     "vue-template-compiler": "^2.6.11"
   }
 }

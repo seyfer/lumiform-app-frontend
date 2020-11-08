@@ -1,0 +1,19 @@
+.guessing {
+  .guessing__poster img {
+    max-height: calc(100% - 20px);
+    object-fit: contain;
+  }
+
+  .guessing__image img {
+    @extend .elevation-1;
+    border-radius: $radius-large;
+  }
+
+  .guessing__guesses {
+    @include scrollbars(.5em, slategray, transparent) {
+      border-radius: $radius-large;
+    };
+
+    overflow-x: auto;
+  }
+}

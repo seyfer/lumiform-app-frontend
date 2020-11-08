@@ -1,0 +1,6 @@
+enum CoreStoreGetters {
+  GET_LISTABLE_ITEMS_ITEMS = 'GET_LISTABLE_ITEMS_ITEMS',
+  GET_LISTABLE_ITEMS_PAGE_META = 'GET_LISTABLE_ITEMS_PAGE_META',
+}
+
+export default CoreStoreGetters;

@@ -1,0 +1,13 @@
+.guessed-card {
+  @extend .elevation-1;
+
+  .guessed-card__content {
+    @extend .mb-2;
+    max-height: 50px;
+  }
+
+  .guessed-card__image {
+    max-height: 320px;
+    object-fit: cover;
+  }
+}

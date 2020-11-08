@@ -1,0 +1,6 @@
+.input {
+  &.is-danger + span.has-text-danger,
+  &.is-success + span.has-text-success {
+    display: none;
+  }
+}

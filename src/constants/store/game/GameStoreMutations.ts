@@ -1,0 +1,8 @@
+enum GameStoreMutations {
+  SET_ACTIVE_USER = 'SET_ACTIVE_USER',
+  SET_ACTIVE_TERM = 'SET_ACTIVE_TERM',
+  SET_MOVIE_GUESSINGS = 'SET_MOVIE_GUESSINGS',
+  SET_ACTIVE_GAME = 'SET_ACTIVE_GAME',
+}
+
+export default GameStoreMutations;
